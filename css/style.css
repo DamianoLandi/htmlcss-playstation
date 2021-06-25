@@ -1,0 +1,59 @@
+/* Utils */
+
+.text-gray{
+    color: gray;
+}
+
+.fs-7{
+    font-size: 12px;
+}
+
+.fs-8{
+    font-size: 10px;
+}
+
+
+/* HEADER */
+
+header{
+    width: 100%;
+}
+
+/* Header First Section */
+
+#top-nav{
+    height: 40px;
+    background-color: black;
+
+}
+
+#logo{
+    height: 80%;
+    margin-right: 15px;
+}
+
+/* Header Last Section */   
+
+#bottom-nav .nav-link.disabled{
+    color: black;
+    font-weight: 500;
+}
+
+#bottom-nav .nav-link{
+    color: black;
+    font-weight: 500;
+}
+
+#bottom-nav .left-nav{
+    min-width: 600px;
+}
+
+#bottom-nav .right-nav{
+    max-width: 300px;
+    min-width: 300px;
+}
+
+#bottom-nav .btn{
+    border-radius: 25px;
+    padding: 5px 20px;
+}
