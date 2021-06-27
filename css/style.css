@@ -5,7 +5,7 @@
 }
 
 .fs-7{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .fs-8{
@@ -17,6 +17,7 @@
 
 header{
     width: 100%;
+    z-index: 1;
 }
 
 /* Header First Section */
@@ -56,4 +57,39 @@ header{
 #bottom-nav .btn{
     border-radius: 25px;
     padding: 5px 20px;
+}
+
+/* MAIN */
+
+/* Main First Section */
+
+#main-first-section{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    top: 116px;
+}
+
+.main-section-content{
+    position: absolute;
+    bottom: 50px;
+}
+
+.main-section-content img{
+    max-height: 40px;
+}
+
+.main-section-content h2{
+    margin: 40px 0;
+}
+
+.main-section-content .btn-dark{
+    background-color: rgb(205, 61, 15);
+    border-color: rgb(205, 61, 15);
+}
+
+.main-section-content .btn{
+    border-radius: 25px;
 }
