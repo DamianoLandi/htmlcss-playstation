@@ -184,6 +184,7 @@ header{
 #main-fifth-section{
     margin-top: 116px;
     background-color: rgb(31,31,31);
+    padding-bottom: 40px;
 }
 
 #main-fifth-section h5{
@@ -192,4 +193,25 @@ header{
 
 #main-fifth-section img{
     border-radius: 1rem;
+}
+
+/* Main Sixth Section */
+
+#main-sixth-section p{
+    top: 20px;
+}
+
+#main-sixth-section .btn-primary{
+    background-color: rgb(0, 114, 206);
+    border-color: rgb(0, 114, 206);
+    max-width: 30%;
+    min-width: 115px;
+}
+
+#main-sixth-section .btn{
+    border-radius: 25px;
+}
+
+#main-sixth-section .card{
+    border: none;
 }
