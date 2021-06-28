@@ -16,6 +16,16 @@
     font-size: 25px;
 }
 
+.border-hover{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: border-color 0.2s;
+}
+
+button:hover .border-hover{
+    border-color: white;
+}
 
 /* HEADER */
 
@@ -54,18 +64,18 @@ header{
 }
 
 #bottom-nav .left-nav{
-    min-width: 600px;
-    max-width: 600px;
+    min-width: 560px;
+    max-width: 700px;
 }
 
 #bottom-nav .right-nav{
-    max-width: 303px;
-    min-width: 303px;
+    max-width: 340px;
+    min-width: 340px;
 }
 
 #bottom-nav .btn{
     border-radius: 25px;
-    padding: 5px 20px;
+    padding: 3px;
 }
 
 #lens{
@@ -147,12 +157,16 @@ header{
 #main-third-section .btn-dark{
     background-color: rgb(0, 114, 206);
     border-color: rgb(0, 114, 206);
-    max-width: 30%;
-    min-width: 220px;
+    max-width: 40%;
+}
+
+#main-third-section .border-hover{
+    padding: 5px 33px
 }
 
 #main-third-section .btn{
     border-radius: 25px;
+    padding: 2px;
 }
 
 #main-third-section .col-md-2 img{
@@ -204,6 +218,7 @@ header{
 .main-section-content .btn-dark{
     background-color: rgb(205, 61, 15);
     border-color: rgb(205, 61, 15);
+    padding: 5px;
 }
 
 .main-section-content .btn{
@@ -240,11 +255,12 @@ header{
     top: 20px;
 }
 
-#main-sixth-section .btn-primary{
+#main-sixth-section .btn-dark{
     background-color: rgb(0, 114, 206);
     border-color: rgb(0, 114, 206);
     max-width: 30%;
     min-width: 115px;
+    padding: 3px;
 }
 
 #main-sixth-section .btn{
@@ -277,6 +293,10 @@ header{
     font-weight: 500;
     max-width: 50%;
     min-width: 200px;
+}
+
+#main-seventh-section .btn-custom:hover{
+    box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
 }
 
 /* Main Eight Section */
