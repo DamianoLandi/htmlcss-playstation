@@ -235,7 +235,7 @@ header{
     border-radius: 25px;
 }
 
-.btn-custom{
+#main-seventh-section .btn-custom{
     color: rgb(0, 114, 206);
     background-color: rgb(217, 218, 220);
     border-color: rgb(217, 218, 220);
@@ -243,3 +243,6 @@ header{
     max-width: 50%;
     min-width: 200px;
 }
+
+/* Main Eight Section */
+
