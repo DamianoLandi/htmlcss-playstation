@@ -178,3 +178,18 @@ header{
 .main-section-content .btn{
     border-radius: 25px;
 }
+
+/* Main Fifth Section */
+
+#main-fifth-section{
+    margin-top: 116px;
+    background-color: rgb(31,31,31);
+}
+
+#main-fifth-section h5{
+    color: white;
+}
+
+#main-fifth-section img{
+    border-radius: 1rem;
+}
