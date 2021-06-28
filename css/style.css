@@ -49,18 +49,27 @@ header{
     font-weight: 500;
 }
 
+#bottom-nav .blue-hover:hover > *{
+    color: rgb(0, 114, 206);
+}
+
 #bottom-nav .left-nav{
-    min-width: 600px;
+    min-width: 750px;
+    max-width: 750px;
 }
 
 #bottom-nav .right-nav{
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 400px;
 }
 
 #bottom-nav .btn{
     border-radius: 25px;
     padding: 5px 20px;
+}
+
+#lens{
+    max-height: 30px;
 }
 
 /* MAIN */
@@ -111,6 +120,14 @@ header{
 
 #main-second-section .active{
     border-color: rgb(0, 114, 206);
+}
+
+.move-up{
+    transition: margin 0.5s;
+}
+
+.move-up:hover{
+    margin-top: -10px;
 }
 
 /* Main Third Section */
