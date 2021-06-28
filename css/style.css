@@ -275,3 +275,42 @@ header{
     max-width: 50%;
     min-width: 205px;
 }
+
+/* FOOTER */
+
+#footer{
+    background-color: rgb(0, 67, 156);
+    color: white;
+}
+
+#footer-logo{
+   height: 80px;
+   margin: 30px 0;
+}
+
+#globe{
+    max-height: 15px;
+    max-width: 15px;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer li > a{
+    text-decoration: none;
+}
+
+
+#footer .col-lg-6 .container-fluid{
+    padding: 50px 0;
+}
+
+.sie-container{
+    max-height: 50px;
+    max-width: 200px;
+}
