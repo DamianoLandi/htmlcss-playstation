@@ -12,6 +12,10 @@
     font-size: 10px;
 }
 
+.fs-custom{
+    font-size: 25px;
+}
+
 
 /* HEADER */
 
@@ -246,3 +250,28 @@ header{
 
 /* Main Eight Section */
 
+#main-eight-section{
+    margin-bottom: 50px;
+}
+
+/* Main Ninth Section */
+
+#main-ninth-section{
+    background-color: rgb(22, 28, 59);
+    font-weight: 500;
+}
+
+#now-logo{
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+#main-ninth-section .btn{
+    border-radius: 25px;
+}
+
+#main-ninth-section .btn-light{
+    font-weight: 500;
+    max-width: 50%;
+    min-width: 205px;
+}
