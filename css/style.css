@@ -93,3 +93,18 @@ header{
 .main-section-content .btn{
     border-radius: 25px;
 }
+
+/* Main Second Section */
+
+#main-second-section{
+    margin-top: 150px;
+}
+
+#main-second-section img{
+    border: 1px solid transparent;
+    border-radius: 17px;
+}
+
+#main-second-section img:hover{
+    border-color: rgb(0, 114, 206);
+}
