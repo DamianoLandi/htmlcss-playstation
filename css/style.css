@@ -54,13 +54,13 @@ header{
 }
 
 #bottom-nav .left-nav{
-    min-width: 750px;
-    max-width: 750px;
+    min-width: 600px;
+    max-width: 600px;
 }
 
 #bottom-nav .right-nav{
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 303px;
+    min-width: 303px;
 }
 
 #bottom-nav .btn{
@@ -157,6 +157,16 @@ header{
 
 #main-third-section .col-md-2 img{
     filter: opacity(0.6);
+    transition: filter 0.5s;
+    cursor: pointer;
+}
+
+#main-third-section .hover-opacity:hover img{
+    filter: opacity(1);
+}
+
+#main-third-section .hover-opacity:hover h6{
+    color: black;
 }
 
 #main-third-section .active{
@@ -206,6 +216,10 @@ header{
     margin-top: 116px;
     background-color: rgb(31,31,31);
     padding-bottom: 40px;
+}
+
+#main-fifth-section .col-6{
+    cursor: pointer;
 }
 
 #main-fifth-section h5{
