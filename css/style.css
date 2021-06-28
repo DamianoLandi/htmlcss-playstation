@@ -105,6 +105,43 @@ header{
     border-radius: 17px;
 }
 
-#main-second-section img:hover{
+#main-second-section .active{
     border-color: rgb(0, 114, 206);
+}
+
+/* Main Third Section */
+
+#main-third-section{
+    margin-top: 150px;
+}
+
+#main-third-section h5{
+    color: rgb(0, 114, 206);
+}
+
+#main-third-section p{
+    margin-top: 30px;
+}
+
+#main-third-section .btn-dark{
+    background-color: rgb(0, 114, 206);
+    border-color: rgb(0, 114, 206);
+    max-width: 30%;
+    min-width: 220px;
+}
+
+#main-third-section .btn{
+    border-radius: 25px;
+}
+
+#main-third-section .col-md-2 img{
+    filter: opacity(0.6);
+}
+
+#main-third-section .active{
+    border-bottom: 4px solid rgb(0, 114, 206);
+}
+
+#main-third-section .active img{
+    filter: opacity(1);
 }
