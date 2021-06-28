@@ -197,6 +197,10 @@ header{
 
 /* Main Sixth Section */
 
+#main-sixth-section{
+    margin-bottom: 50px;
+}
+
 #main-sixth-section p{
     top: 20px;
 }
@@ -214,4 +218,28 @@ header{
 
 #main-sixth-section .card{
     border: none;
+}
+
+/* Main Seventh Section */
+
+#main-seventh-section{
+    background-color: rgb(190, 188, 187);
+    font-weight: 500;
+}
+
+#plus-logo{
+    max-width: 60%;
+}
+
+#main-seventh-section .btn{
+    border-radius: 25px;
+}
+
+.btn-custom{
+    color: rgb(0, 114, 206);
+    background-color: rgb(217, 218, 220);
+    border-color: rgb(217, 218, 220);
+    font-weight: 500;
+    max-width: 50%;
+    min-width: 200px;
 }
